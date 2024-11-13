@@ -1,0 +1,326 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Hero Section with Video Background */
+.hero-section {
+    position: relative;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.hero-content {
+    max-width: 600px;
+    z-index: 1;
+    padding: 20px;
+}
+
+/* Estilo para a descrição do vídeo */
+.video-description {
+    background-color: #f0f0f0; /* Fundo leve */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza e adiciona margem superior */
+    color: #333;
+    font-size: 1rem;
+}
+
+
+/* Estilo para a descrição do vídeo */
+.video-description {
+    background-color: #f0f0f0; /* Fundo leve */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza e adiciona margem superior */
+    color: #333;
+    font-size: 1rem;
+}
+
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.cta-btn {
+    background-color: #ff6f43;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.cta-btn:hover {
+    background-color: #00FF7F;
+}
+
+/* Estilo para a descrição do vídeo */
+.video-description {
+    background-color: #f0f0f0; /* Fundo leve */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza e adiciona margem superior */
+    color: #333;
+    font-size: 1rem;
+}
+/* Video Container */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Estilo para a descrição do vídeo */
+.video-description {
+    background-color: #ff6f43; /* Fundo chamativo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px;
+    margin: 20px auto;
+    color: #fff; /* Texto branco para contraste */
+    font-size: 1rem;
+    text-align: left; /* Texto alinhado à esquerda */
+    position: relative;
+}
+
+.video-description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.video-description i {
+    margin-right: 8px;
+}
+
+.video-description p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* Testimonials */
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonial {
+    background: rgba(240, 240, 240, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.rating {
+    color: #ffb400;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Purchase Form */
+.purchase-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.purchase-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#form-purchase {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Caixa para o formulário */
+.purchase-section .form-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Estilo para os campos do formulário */
+.purchase-section input {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-section input:focus {
+    border-color: #ff7043;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o botão de compra */
+.purchase-section .cta-btn {
+    background-color: #000;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-section .cta-btn:hover {
+    background-color: #00FF7F;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #81c784;
+    text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .testimonial {
+        flex-direction: column;
+    }
+
+    .testimonial-img {
+        width: 100px;
+        height: 100px;
+    }
+}
